@@ -2,7 +2,7 @@ body {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
     margin: 0;
     padding: 0;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #274b66 0%, #e97423 100%);
     min-height: 100vh;
     display: flex;
     align-items: center;
@@ -65,13 +65,13 @@ input[type="password"] {
 
 input[type="password"]:focus {
     outline: none;
-    border-color: #667eea;
+    border-color: #274b66;
 }
 
 .login-btn {
     width: 100%;
     padding: 12px;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #274b66 0%, #e97423 100%);
     color: white;
     border: none;
     border-radius: 6px;
@@ -147,8 +147,8 @@ input[type="password"]:focus {
 
 .tab.active {
     background: white;
-    color: #667eea;
-    border-bottom: 3px solid #667eea;
+    color: #274b66;
+    border-bottom: 3px solid #274b66;
 }
 
 .reports-grid {
