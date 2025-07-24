@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Momentum Meetings Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container" id="loginContainer">
+        <div class="login-form">
+            <h1>🔐 Secure Dashboard Access</h1>
+            <div class="input-group">
+                <label for="password">Enter Password:</label>
+                <input type="password" id="password" placeholder="Enter password">
+            </div>
+            <button class="login-btn" onclick="checkPassword()">Access Dashboard</button>
+            <div class="error-message" id="errorMessage">
+                Incorrect password. Please try again.
+            </div>
+        </div>
+    </div>
+
+    <div class="dashboard-container" id="dashboardContainer">
+        <button class="logout-btn" onclick="logout()">Logout</button>
+        
+        <div class="dashboard-header">
+            <h2>📊 Momentum Meetings Dashboard</h2>
+        </div>
+
+        <div class="tabs-container">
+            <div class="tabs">
+                <div class="tab active" onclick="showReport('inbound')">📞 Inbound</div>
+                <div class="tab" onclick="showReport('outbound')">📤 Outbound</div>
+                <div class="tab" onclick="showReport('sdr')">👤 Sales Dev Rep</div>
+            </div>
+        </div>
+
+        <div class="reports-grid">
+            <div class="report-section">
+                <div class="report-title">📞 Inbound Reports</div>
+                <div class="report-panel active" id="inbound-panel">
+                    <iframe 
+                        title="Momentum Meetings - Inbound" 
+                        src="https://app.powerbi.com/view?r=eyJrIjoiZGI3MTc5ZWYtZGM4ZS00NWZiLTkxZjgtMWYyZjY5Zjk1NDQ2IiwidCI6IjlmNDY1ZDNhLTA5MDgtNDMxYS05ZDdmLTRkNDAwMDAyODRhYSIsImMiOjZ9&pageName=7c1150d819507205e891" 
+                        allowFullScreen="true">
+                    </iframe>
+                </div>
+            </div>
+
+            <div class="report-section">
+                <div class="report-title">📤 Outbound Reports</div>
+                <div class="report-panel" id="outbound-panel">
+                    <iframe 
+                        title="Momentum Meetings - Outbound" 
+                        src="https://app.powerbi.com/view?r=eyJrIjoiZGI3MTc5ZWYtZGM4ZS00NWZiLTkxZjgtMWYyZjY5Zjk1NDQ2IiwidCI6IjlmNDY1ZDNhLTA5MDgtNDMxYS05ZDdmLTRkNDAwMDAyODRhYSIsImMiOjZ9&pageName=6646072d92c2c39791ba" 
+                        allowFullScreen="true">
+                    </iframe>
+                </div>
+            </div>
+
+            <div class="report-section">
+                <div class="report-title">👤 Sales Development Representative</div>
+                <div class="report-panel" id="sdr-panel">
+                    <iframe 
+                        title="Momentum Meetings - Sales Development Representative" 
+                        src="https://app.powerbi.com/view?r=eyJrIjoiZGI3MTc5ZWYtZGM4ZS00NWZiLTkxZjgtMWYyZjY5Zjk1NDQ2IiwidCI6IjlmNDY1ZDNhLTA5MDgtNDMxYS05ZDdmLTRkNDAwMDAyODRhYSIsImMiOjZ9&pageName=42700f3fac1781150674" 
+                        allowFullScreen="true">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
