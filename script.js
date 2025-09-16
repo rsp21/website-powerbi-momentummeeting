@@ -1,3 +1,5 @@
+console.log('script.js loaded');
+
 const correctPassword = "710";
 
 // Centralized report sources and metadata
