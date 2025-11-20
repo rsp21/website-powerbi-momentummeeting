@@ -8,7 +8,8 @@ const reports = [
         id: 'inbound',
         title: '📞 Inbound Reports',
         // src: 'https://app.powerbi.com/view?r=eyJrIjoiZGI3MTc5ZWYtZGM4ZS00NWZiLTkxZjgtMWYyZjY5Zjk1NDQ2IiwidCI6IjlmNDY1ZDNhLTA5MDgtNDMxYS05ZDdmLTRkNDAwMDAyODRhYSIsImMiOjZ9&pageName=7c1150d819507205e891',
-        src: 'https://app.powerbi.com/view?r=eyJrIjoiNmMzZTg4ZjAtZjVkZC00ODQ4LWFkYmEtYjVjMzBiYTkzMDA5IiwidCI6ImQzODZlMjAwLWQwZGUtNGNmZC05MDY0LThiNGIzMzcxMGFhNiIsImMiOjZ9&pageName=7c536092238ba0162f2e',
+        // src: 'https://app.powerbi.com/view?r=eyJrIjoiNmMzZTg4ZjAtZjVkZC00ODQ4LWFkYmEtYjVjMzBiYTkzMDA5IiwidCI6ImQzODZlMjAwLWQwZGUtNGNmZC05MDY0LThiNGIzMzcxMGFhNiIsImMiOjZ9&pageName=7c536092238ba0162f2e',
+        src: 'https://app.powerbi.com/view?r=eyJrIjoiNmMzZTg4ZjAtZjVkZC00ODQ4LWFkYmEtYjVjMzBiYTkzMDA5IiwidCI6ImQzODZlMjAwLWQwZGUtNGNmZC05MDY0LThiNGIzMzcxMGFhNiIsImMiOjZ9&pageName=af8b721e3906bbba40db',
         iframeTitle: 'Momentum Meetings - Inbound'
     },
     {
